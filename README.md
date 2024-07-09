@@ -24,7 +24,7 @@ $$Motor_{traseiro-esquerdo} =Thrust_{cmd} + Yaw_{cmd} -Pitch_{cmd} - Roll_{cmd} 
 Para garantir que o drone execute o hover em $5 m$ , precisamos construir um sistema em ```Feedback``` . Isso ocorre porque precisamos garantir que o sistema seja alimentado com dados sobre a altitude atual e que esses dados sejam comparados com uma altura de referência.
 
 #### Controlador de Altitude
-Para que o Drone se mantenha em Hover, precisamos garantir que o Voo seja nivelado. Caso contrário, a altitude pode estar em valor correto, mas com o Drone se afastandp da posição de referência em x ou em y.
+Para que o Drone se mantenha em Hover, precisamos garantir que o Voo seja nivelado. Caso contrário, a altitude pode estar em valor correto, mas com o Drone se afastando da posição de referência em x ou em y.
 
 ### Posição de Referência
 Para evitar que o Drone se afaste da posição inicial por causa de perturbações(rajadas, por exemplo), precisaremos de controladores de ângulos de Roll, Pitch e Yaw. Precisaremos, também, de um controlador específico de posição, que utiliza uma posição de referência como parâmetro. Isso ocorre porque um controlador que deixe os ângulos de Roll e Pitch fixados em 0°(para tentar garantir o voo nivelado) impede que o sistema faça mudanças de Roll e Pitch para corrigir os erros de posição inicial. O ângulo de Yaw também faz parte desse controlador, e atua como uma matriz de rotação, já que a referência de guinada é em um referencial inercial em solo.
