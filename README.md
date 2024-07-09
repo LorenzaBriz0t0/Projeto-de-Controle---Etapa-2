@@ -13,8 +13,11 @@ Os movimentos 4 básicos de uma aeronave rotativa são divididos em Roll, Pitch,
 As entradas do sistema são as velocidades dos quatro astuadores. Utilizando esses dados, descrevemos os movimentos possíveis do drone com combinações diferentes de geração de força e torque no sistema com determinados atuadores. Assim,podemos chegar no algorimo a seguir para o controle de cada movimento de um jeito mais intuitivo. Ele é chamado de Motor Mixing Algorithm (MMA), e pode ser conferido abaixo:
 
 $$Motor_{frontal-direito} = Thrust_{cmd} + Yaw_{cmd} + Pitch_{cmd} + Roll_{cmd} $$
+
 $$Motor_{frontal-esquerdo} = Thrust_{cmd} - Yaw_{cmd} + Pitch_{cmd} - Roll_{cmd} $$
+
 $$Motor_{traseiro-direito} = Thrust_{cmd} - Yaw_{cmd} -Pitch_{cmd}  + Roll_{cmd} $$
+
 $$Motor_{traseiro-esquerdo} =Thrust_{cmd} + Yaw_{cmd} -Pitch_{cmd} - Roll_{cmd} $$
 
 ### Sistema em malha fechada 
