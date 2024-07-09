@@ -76,7 +76,7 @@ As figuras abaixo ilustram as modificações feitas no sistema:
 ![Imagem de configuração de bloco step do Simulink:](https://i.ibb.co/yVk7rFR/perda2.jpg)
 
 ## Proposição de Controlador para x
-Algumas alterações foram feitas para que um modelo de controlador em x fosse proposto. Como esse grau de liberdade não pode ser descrito diretamente pelos atuadores, deve-se induzir uma resultante na direção desejada, por meio de rolagem. As alterações estão presentes na figura abaixo:
+Algumas alterações foram feitas para que um modelo de controlador em x fosse proposto. Como esse grau de liberdade não pode ser descrito diretamente pelos atuadores, deve-se induzir uma resultante na direção desejada, por meio de rolagem. Com o controlador proposto, a resposta converge para o valor de x desejado, apesar de oscilar um pouco e demorar mais para ficar estável. As alterações estão presentes na figura abaixo:
 
 ![Imagem de circuito modificado no Simulink:](https://i.ibb.co/V9n7279/Altera1.png)
 
