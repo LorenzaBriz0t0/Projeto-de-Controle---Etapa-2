@@ -100,6 +100,7 @@ Research 31.5 (2012): 664-674.
 https://youtube.com/playlist?list=PLn8PRpmsu08oOLBVYYIwwN_nvuyUqEjrj&si=v3Dt74Kpx
 87bq36R
 
+## Autores
 - Bárbara Silva Francisco
 - [@LorenzaBriz0t0](https://github.com/LorenzaBriz0t0) - Lorenza Costa Brizoto
 - Lucas Henrique Muniz Branquinho
