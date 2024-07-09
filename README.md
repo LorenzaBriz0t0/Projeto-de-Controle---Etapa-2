@@ -32,7 +32,7 @@ Para evitar que o Drone se afaste da posição inicial por causa de perturbaçõ
 ### Arquitetura do Controlador
 Vamos ilustrar o funcionamento do drone com um experimento mental. Suponha que o Drone esteja voando na altitude correta de $5m$, mas que esteja à esquerda da posição inicial(que vamos adotar como referência). Isso acusa um erro de posição e seu controlador solicita que o drone role para a direita. Esse sistema  se comunica com o MMA, que determina que os atuadores do lado esquerdo aumentem suas velocidades, e que os da direita, as diminuam. Assim, o drone se move para a direita. Mas o Drone, então, perde altitude. O controlador de altitude percebe o erro na altitude e aumenta o Thrust dos quatro motores. 
 
-Vamos ilustar com um Diagrama de Blocos o que foi descrito anteriormente:
+Vamos ilustrar com um Diagrama de Blocos o que foi descrito anteriormente:
 ```mermaid
 ---
 Title : Arquitetura do Controlador
