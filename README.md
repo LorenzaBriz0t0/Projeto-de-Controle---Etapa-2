@@ -68,6 +68,13 @@ Um modelo simplificado dessa planta foi implementado em Simulink:
 
 ## Perda de Massa
 Quando inputamos na planta um sistema que supõe a perda de massa no sistema, com os parãmetros restantes mantidos, o Drone continua seu Hover, mas em aproximadamente 7.5m. Isso faz sentido, já que os parâmetros de Controle são as velocidades dos rotores, então o equilíbrio do corpo por conta da sustentação, já com menos massa, acontece a uma altitude maior.
+As figuras abaixo ilustram as modificações feitas no sistema:
+### Entrada Degrau
+![Imagem de entrada degrau gerada pelo Simulink:](https://i.ibb.co/MDVWSrT/Perda1.jpg)
+
+### Configurações
+![Imagem de configuração de bloco step do Simulink:](https://i.ibb.co/yVk7rFR/perda2.jpg)
+
 
 
 ## Referências Bilbiográficas
