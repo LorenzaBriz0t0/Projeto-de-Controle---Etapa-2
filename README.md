@@ -1,7 +1,7 @@
 
 # Projeto de Controlador para Drone 2D
 ## Overview
-O objetivo do projeto é a compreensão e aplicação de controladores para um modelo simplificado de quadricóptero que se move em duas dimensões. O escopo do problema inical é desenvolver um controlador de altitude que permita ao drone decolar e manter-se em hover em 5m do solo.
+O objetivo do projeto é a compreensão e aplicação de controladores para um modelo simplificado de quadricóptero que se move em duas dimensões. O escopo do problema inicial é desenvolver um controlador de altitude que permita ao drone decolar e manter-se em hover em 5m do solo.
 
 ## Descrição do Sistema:
 Estamos trabalhando com um sistema sub-atuado, ou seja, temos mais graus de liberdade do que atuadores. Isso significa que o movimento para algumas direções específicas não pode ser realizado de forma desacoplada. Em um modelo mais geral do que o utilizado, podemos ter alguma base dos algoritmos empregados para descrever o movimento do Drone em 3D.
